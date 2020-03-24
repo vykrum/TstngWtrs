@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ApplicationIcon />
+    <OutputType>Library</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Hxgn.cs" />
+    <Compile Remove="Sqrs.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SpacePlanning">
+      <HintPath>..\..\..\F#\SpacePlanning\SpacePlanning\bin\Debug\netstandard2.0\SpacePlanning.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+ 
+  
+</Project>

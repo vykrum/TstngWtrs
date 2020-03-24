@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xzEqbwtWCvV1hhyQBx4c2JKMW6f3s2zaHgvlinjyCN06kIWhDwekAi/ag+UsAbg4PPoJJIrsvzF0IsPAlN9lYQ==",
+  "success": true,
+  "projectFilePath": "G:\\My Drive\\SpacePlanning\\C#\\TstngWtrs\\TstngWtrs\\TstngWtrs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vykru\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

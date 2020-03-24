@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "spaces", "spaces\spaces.fsproj", "{B7A3199A-5998-45A3-A4E6-913B6FA02A88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A3199A-5998-45A3-A4E6-913B6FA02A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A3199A-5998-45A3-A4E6-913B6FA02A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A3199A-5998-45A3-A4E6-913B6FA02A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A3199A-5998-45A3-A4E6-913B6FA02A88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25B24A15-0A6D-434B-8962-974A4FBE8878}
+	EndGlobalSection
+EndGlobal
