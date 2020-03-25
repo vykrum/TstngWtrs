@@ -18,3 +18,4 @@ G:\My Drive\SpacePlanning\C#\TstngWtrs\TstngWtrs\obj\Debug\netstandard2.0\TstngW
 G:\My Drive\SpacePlanning\C#\TstngWtrs\TstngWtrs\obj\Debug\netstandard2.0\TstngWtrs.dll
 G:\My Drive\SpacePlanning\C#\TstngWtrs\TstngWtrs\obj\Debug\netstandard2.0\TstngWtrs.pdb
 G:\My Drive\SpacePlanning\C#\TstngWtrs\TstngWtrs\obj\Debug\netstandard2.0\TstngWtrs.csproj.CoreCompileInputs.cache
+G:\My Drive\SpacePlanning\C#\TstngWtrs\TstngWtrs\obj\Debug\netstandard2.0\TstngWtrs.csprojAssemblyReference.cache
