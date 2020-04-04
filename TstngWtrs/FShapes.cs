@@ -1,6 +1,5 @@
 ﻿using Clusters;
 using Microsoft.FSharp.Collections;
-using System.Collections.Generic;
 
 namespace TstngWtrsF
 {
@@ -8,19 +7,15 @@ namespace TstngWtrsF
     {
         internal FShapes() { }
         
-        public static FSharpList<FSharpList<FSharpList<double>>> Clstr(int c = 1, int n = 1, double x = 0.0, double y = 0.0)
+        public static FSharpList<FSharpList<double>> Clstr(int c = 1, int n = 1, double x = 0.0, double y = 0.0)
         {
-            var tup = HexShapes.cls (x, y, n, HexShapes.adj( 0.0, 1074 ) );
-            var xm = HexShapes.mcl(c, tup, HexShapes.adj(0.0, 1074));
-
-            return HexShapes.tupLst(xm);
+            var tup = HexShapes.cls (n, HexShapes.adj( 0.0, 1074 ), x, y);
+            var xm = (HexShapes.mcs(c, tup));
+            
+            //return HexShapes.tupLst(xm);
             //var prm = HexShapes.prm(tup);
-            //return HexShapes.tupXY( prm );            
+            return HexShapes.tupXY(xm);            
         }
-
-        public static List<int> Test (List<int> a)
-        {
-            return a;
-        }
+ 
     }
 }
